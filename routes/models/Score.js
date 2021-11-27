@@ -1,0 +1,18 @@
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+
+const ScoreSchema = new Schema({
+  user: {
+    type: Schema.Types.ObjectId,
+    ref: 'User'
+  },
+  quiz: {
+    type: Schema.Types.ObjectId,
+    ref: 'Quiz'
+  },
+  score: Number
+});
+
+const Score = mongoose.model('Score', ScoreSchema);
+
+module.exports = Score;
