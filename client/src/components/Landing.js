@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Landing = props => (
   <div className="Landing">
     <h1>XD</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies, diam quis cursus fermentum, diam risus luctus ligula, quis mollis diam turpis ut purus.</p>
+    <p>xd</p>
     <Link className="primary" to="/register">Registrarse</Link>
     <Link to="/login">Ya tengo usuario</Link>
   </div>
