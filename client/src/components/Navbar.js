@@ -15,15 +15,15 @@ const Navbar = props => {
     <div className="Navbar">
       <ul>
         <li>
-          <Link to="/">Inicio</Link>
+          <Link to="/">Start</Link>
         </li>
         <li>
-          <Link to="/register">Registrarse</Link>
+          <Link to="/register">Register</Link>
         </li>
         <li>
           {user
             ? <button onClick={handleClick}>Logout</button>
-            : <Link to="/login">Ingresar</Link>}
+            : <Link to="/login">Join</Link>}
         </li>
       </ul>
     </div>

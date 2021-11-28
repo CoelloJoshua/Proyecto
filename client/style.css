@@ -1,0 +1,38 @@
+img {
+    display: block;
+    margin: 20px 1 auto;
+  }
+
+body {
+      margin: 0;
+      padding: 5;
+}
+  img {
+    display: block;
+    margin: 20px 2 auto;
+  }
+body {
+    margin: 0;
+    padding: 10;
+}
+
+
+  img {
+    display: block;
+    margin: 20px 3 auto;
+  }
+
+  body {
+    margin: 0;
+    padding: 15;
+}
+
+  img {
+    display: block;
+    margin: 20px 4 auto;
+  }
+
+  body {
+    margin: 0;
+    padding: 20;
+}

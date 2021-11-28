@@ -7,7 +7,7 @@ const Header = props => {
   // render
   return (
     <div className="Header">
-      <h3>XD</h3>
+      <h3>Presentaciones CJ</h3>
       {user && <p>Hola de nuevo, {firstName}</p>}
       <Navbar user={user} setUser={setUser} />
     </div>

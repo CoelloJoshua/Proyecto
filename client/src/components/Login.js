@@ -33,23 +33,23 @@ const Login = props => {
   // render
   return (
     <div className="Login">
-      <h1>Ingresar</h1>
+      <h1>log in</h1>
       <form onSubmit={handleSubmit}>
-        <label>Usuario</label>
+        <label>Username</label>
         <input
           type="text"
           name="username"
           value={username}
           onChange={handleChange}
         />
-        <label>Contraseña</label>
+        <label>Password</label>
         <input
           type="password"
           name="password"
           value={password}
           onChange={handleChange}
         />
-        <button type="submit">Ingresar</button>
+        <button type="submit">Log in</button>
       </form>
     </div>
   );
